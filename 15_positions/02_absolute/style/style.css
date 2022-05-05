@@ -1,0 +1,15 @@
+p{
+	font-family: 'raleway';
+	font-size: 3em;
+}
+
+h1{
+	border:3px solid black;
+	width: 400px;
+	text-align: center;
+	font-size: 3em;
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}

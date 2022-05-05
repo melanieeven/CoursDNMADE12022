@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>image draggable</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style/reset.css">
+		<link rel="stylesheet" type="text/css" href="style/style.css">		
+		<script type="text/javascript" src="js/jquery.js"></script>
+    	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	</head>
+	<body>
+
+		<div id="conteneur">
+			
+			<ul>
+				<li id="vert"></li>
+				<li id="rouge"></li>
+			</ul>
+
+			<figure>
+				<img src="import/chat.gif" alt="gif d'un chat">
+			</figure>	
+
+		</div>
+
+
+		<script>
+
+	        $("#rouge").click(function(){
+	          $("#figure").hide();
+	        });     
+
+
+	        $("#vert").click(function(){
+	          $("figure").show();
+	        });
+    	</script>
+	</body>
+</html>

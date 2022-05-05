@@ -1,0 +1,25 @@
+div{
+	border: 5px solid black;
+	width: 950px;
+	margin: auto;
+}
+
+
+ul{
+	border: 1px solid green;
+}
+
+li{
+	border: 1px solid red;
+	width: 300px;
+	display: inline-block;
+}
+
+p{
+	color: black;
+}
+
+span{
+	color: red;
+	border: 1px solid blue;
+}

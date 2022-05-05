@@ -1,0 +1,19 @@
+body{
+	background-color: #DE3C4B;
+}
+
+p{
+	font-family: verdana;
+	font-size: 0.8em;
+	color: lightgrey;
+}
+
+h1{
+	color: #F9C22E;
+	font-size: 4em;
+	font-family: 'DotGothic16', sans-serif;
+	text-align: center;
+	/*border: 3px solid #F9C22E;*/
+	margin: 300px;
+}
+
